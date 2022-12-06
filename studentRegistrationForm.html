@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Registrtion form
+    </title>
+    <style>
+        label {
+            color: aqua;
+        }
+
+        input[type="text"] {
+            color: blue;
+            border: 1px solid red;
+            border-radius: 20PX;
+        }
+        input[type="submit"]:hover
+        {
+            color: blueviolet;
+        }
+
+        input[type="submit"] {
+            border color: red;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Student registration form</h3>
+    <form>
+
+
+        <table>
+            <tbody>
+                <tr>
+                    <td> <label>First Name</label></td>
+                    <td> <input type="text" placeholder="Capital letters only" maxlength="10"><br></td>
+                </tr>
+                <tr>
+                    <td> <label>Last name</label></td>
+                    <td><input type="text"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile no</label></td>
+                    <td><input type="number" placeholder="max 10 digit"></td>
+                </tr>
+                <tr>
+                    <td><label> Email</label></td>
+                    <td><input type="email" placeholder="Ex.abc@gmail.com" /></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>MY date of birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Availabe in week</label></td>
+                    <td><input type="week"></td>
+                </tr>
+                <tr>
+                    <td><label>Availabe at time</label></td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td><label> profile photo</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label>my documents</label></td>
+                    <td><input type="file" multiple></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label>Graduation</label></td>
+                    <td>
+                        <select>
+                            <option> BE </option>
+                            <option> MCA </option>
+                            <option> BCA </option>
+                            <option> BSC </option>
+                            <option> B.Tech</option>
+                            <option> BCS </option>
+                            <option> MSC </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>select gender</label></td>
+                    <td>
+                        <input type="radio" name="gender"><label>male</label>
+                        <input type="radio" name="gender"><label>female</label>
+                        <input type="radio" name="gender"><label>other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>select traning</label></td>
+                    <td>
+                        <input type="checkbox"><label>angular</label>
+                        <input type="checkbox"><label>react</label>
+                        <input type="checkbox"><label>java</label>
+                        <input type="checkbox"><label>data science</label>
+                        <input type="checkbox"><label>automation testing</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Age</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label> State </label></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label> country </label></td>
+                    <td><input type="text" placeholder="India" /></td>
+                </tr>
+                <tr>
+                    <td><label>Present Address</label></td>
+                    <td><textarea row="7" cols="8" maxlength="10"> </textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td> <input type="reset"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+
+</body>
+
+</html>
